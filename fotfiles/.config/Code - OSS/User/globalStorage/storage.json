@@ -1,0 +1,127 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "6b6c2f176c381a825d3c601bcc15bec23e997b2e4b71d8dc475acb6a81a389ca",
+    "telemetry.devDeviceId": "0079c0bc-17f3-426a-ba8f-2b8eb0e61b81",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/pepino/.config"
+            },
+            {
+                "folderUri": "file:///home/pepino/Projects"
+            },
+            {
+                "folderUri": "file:///home/pepino/Projects/MyFisrtLinuxRice"
+            }
+        ],
+        "emptyWindows": [
+            {
+                "backupFolder": "1762060902211"
+            }
+        ]
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/pepino/.config/hypr": "__default__profile__",
+            "file:///home/pepino/.config": "__default__profile__",
+            "file:///home/pepino/Projects": "__default__profile__",
+            "file:///home/pepino/Projects/MyFisrtLinuxRice": "__default__profile__"
+        },
+        "emptyWindows": {
+            "1762060902211": "__default__profile__"
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/pepino/.config",
+            "backupPath": "/home/pepino/.config/Code - OSS/Backups/5444d70d5cc189267c1956916d3e5c1a",
+            "uiState": {
+                "mode": 1,
+                "x": 22,
+                "y": 64,
+                "width": 931,
+                "height": 1114
+            }
+        },
+        "openedWindows": [
+            {
+                "folder": "file:///home/pepino/.config",
+                "backupPath": "/home/pepino/.config/Code - OSS/Backups/5444d70d5cc189267c1956916d3e5c1a",
+                "uiState": {
+                    "mode": 1,
+                    "x": 22,
+                    "y": 64,
+                    "width": 931,
+                    "height": 1114
+                }
+            },
+            {
+                "folder": "file:///home/pepino/Projects/MyFisrtLinuxRice",
+                "backupPath": "/home/pepino/.config/Code - OSS/Backups/ae24e175588037d138f8b65804038226",
+                "uiState": {
+                    "mode": 1,
+                    "x": 967,
+                    "y": 64,
+                    "width": 931,
+                    "height": 550
+                }
+            }
+        ]
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#1f1f1f",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cccccc",
+            "background": "#1f1f1f",
+            "editorBackground": "#1f1f1f",
+            "titleBarBackground": "#181818",
+            "titleBarBorder": "#2b2b2b",
+            "activityBarBackground": "#181818",
+            "activityBarBorder": "#2b2b2b",
+            "sideBarBackground": "#181818",
+            "sideBarBorder": "#2b2b2b",
+            "statusBarBackground": "#181818",
+            "statusBarBorder": "#2b2b2b",
+            "statusBarNoFolderBackground": "#1f1f1f"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 244,
+            "auxiliaryBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 244,
+            "auxiliaryBarWidth": 244,
+            "workspaces": {
+                "26828e4323266aff31d7577eb829f9b7": {
+                    "sideBarVisible": false,
+                    "auxiliaryBarVisible": true
+                },
+                "b96432a9f0aa6320fc621219634ca3a6": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "afa40062579c3d8e318f8af4026bc6d3": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "eea917f5dad94ca2df0e7de93e23b19c": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    }
+}

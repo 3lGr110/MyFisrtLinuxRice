@@ -1,0 +1,218 @@
+2025-11-02 05:21:42.742 [info] [main] Log level: Info
+2025-11-02 05:21:42.742 [info] [main] Validating found git in: "git"
+2025-11-02 05:21:42.742 [info] [main] Using git "2.51.2" from "git"
+2025-11-02 05:21:42.742 [info] [Model][doInitialScan] Initial repository scan started
+2025-11-02 05:21:42.742 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-11-02 05:22:30.675 [info] [main] Log level: Info
+2025-11-02 05:22:30.675 [info] [main] Validating found git in: "git"
+2025-11-02 05:22:30.675 [info] [main] Using git "2.51.2" from "git"
+2025-11-02 05:22:30.675 [info] [Model][doInitialScan] Initial repository scan started
+2025-11-02 05:22:30.675 [info] > git rev-parse --show-toplevel [6ms]
+2025-11-02 05:22:30.675 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-11-02 05:22:30.678 [info] > git rev-parse --show-toplevel [1ms]
+2025-11-02 05:22:30.683 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [2ms]
+2025-11-02 05:22:30.692 [info] [Model][openRepository] Opened repository (path): /home/pepino/Projects/MyFisrtLinuxRice
+2025-11-02 05:22:30.692 [info] [Model][openRepository] Opened repository (real path): /home/pepino/Projects/MyFisrtLinuxRice
+2025-11-02 05:22:30.692 [info] [Model][openRepository] Opened repository (kind): repository
+2025-11-02 05:22:30.693 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-11-02 05:22:30.701 [info] > git config --get commit.template [5ms]
+2025-11-02 05:22:30.705 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-11-02 05:22:30.708 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/pepino/Projects/MyFisrtLinuxRice/.git/refs/remotes/origin/main'
+2025-11-02 05:22:30.708 [info] > git rev-parse refs/remotes/origin/main [0ms]
+2025-11-02 05:22:30.714 [info] > git status -z -uall [3ms]
+2025-11-02 05:22:30.715 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-11-02 05:22:30.731 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-11-02 05:22:30.735 [info] > git config --get --local branch.main.vscode-merge-base [0ms]
+2025-11-02 05:22:30.735 [warning] [Git][config] git config failed: Failed to execute git
+2025-11-02 05:22:30.737 [info] > git config --get commit.template [6ms]
+2025-11-02 05:22:30.755 [info] > git reflog main --grep-reflog=branch: Created from *. [18ms]
+2025-11-02 05:22:30.760 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2025-11-02 05:22:30.762 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2025-11-02 05:22:30.765 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/pepino/Projects/MyFisrtLinuxRice/.git/refs/remotes/origin/main'
+2025-11-02 05:22:30.765 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [3ms]
+2025-11-02 05:22:30.768 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2025-11-02 05:22:30.773 [info] > git status -z -uall [3ms]
+2025-11-02 05:22:30.773 [info] > git config --add --local branch.main.vscode-merge-base origin/main [6ms]
+2025-11-02 05:22:30.774 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms] (cancelled)
+2025-11-02 05:22:30.778 [info] > git config --get commit.template [1ms]
+2025-11-02 05:22:30.781 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-11-02 05:22:30.783 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/pepino/Projects/MyFisrtLinuxRice/.git/refs/remotes/origin/main'
+2025-11-02 05:22:30.784 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-11-02 05:22:30.789 [info] > git status -z -uall [3ms]
+2025-11-02 05:22:30.790 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-11-02 05:22:30.795 [info] > git merge-base refs/heads/main refs/remotes/origin/main [2ms]
+2025-11-02 05:22:30.798 [info] > git merge-base refs/heads/main refs/remotes/origin/main [3ms]
+2025-11-02 05:22:30.801 [info] > git diff --name-status -z --diff-filter=ADMR b1c936dde768604e1d7010ce368fb5c074fbd1bd...refs/remotes/origin/main [3ms]
+2025-11-02 05:22:30.801 [info] > git diff --name-status -z --diff-filter=ADMR b1c936dde768604e1d7010ce368fb5c074fbd1bd...refs/remotes/origin/main [1ms]
+2025-11-02 05:22:31.211 [info] > git check-ignore -v -z --stdin [2ms]
+2025-11-02 05:22:31.320 [info] > git rev-parse --show-toplevel [1ms]
+2025-11-02 05:22:31.320 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-11-02 05:22:31.862 [info] > git config --get commit.template [4ms]
+2025-11-02 05:22:31.863 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-11-02 05:22:31.866 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/pepino/Projects/MyFisrtLinuxRice/.git/refs/remotes/origin/main'
+2025-11-02 05:22:31.868 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-11-02 05:22:31.876 [info] > git status -z -uall [5ms]
+2025-11-02 05:22:31.877 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-11-02 05:22:35.859 [info] > git check-ignore -v -z --stdin [1ms]
+2025-11-02 05:22:44.666 [info] [main] Log level: Info
+2025-11-02 05:22:44.667 [info] [main] Validating found git in: "git"
+2025-11-02 05:22:44.667 [info] [main] Using git "2.51.2" from "git"
+2025-11-02 05:22:44.667 [info] [Model][doInitialScan] Initial repository scan started
+2025-11-02 05:22:44.667 [info] > git rev-parse --show-toplevel [5ms]
+2025-11-02 05:22:44.671 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [2ms]
+2025-11-02 05:22:44.677 [info] [Model][openRepository] Opened repository (path): /home/pepino/Projects/MyFisrtLinuxRice
+2025-11-02 05:22:44.677 [info] [Model][openRepository] Opened repository (real path): /home/pepino/Projects/MyFisrtLinuxRice
+2025-11-02 05:22:44.677 [info] [Model][openRepository] Opened repository (kind): repository
+2025-11-02 05:22:44.679 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-11-02 05:22:44.684 [info] > git config --get commit.template [1ms]
+2025-11-02 05:22:44.688 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-11-02 05:22:44.691 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/pepino/Projects/MyFisrtLinuxRice/.git/refs/remotes/origin/main'
+2025-11-02 05:22:44.692 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-11-02 05:22:44.698 [info] > git status -z -uall [4ms]
+2025-11-02 05:22:44.698 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-11-02 05:22:44.715 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-11-02 05:22:44.730 [info] > git config --get --local branch.main.vscode-merge-base [12ms]
+2025-11-02 05:22:44.748 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [16ms]
+2025-11-02 05:22:44.752 [info] > git config --get commit.template [25ms]
+2025-11-02 05:22:44.755 [info] > git merge-base refs/heads/main refs/remotes/origin/main [4ms]
+2025-11-02 05:22:44.760 [info] > git diff --name-status -z --diff-filter=ADMR b1c936dde768604e1d7010ce368fb5c074fbd1bd...refs/remotes/origin/main [3ms]
+2025-11-02 05:22:44.761 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-11-02 05:22:44.763 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/pepino/Projects/MyFisrtLinuxRice/.git/refs/remotes/origin/main'
+2025-11-02 05:22:44.764 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-11-02 05:22:44.769 [info] > git status -z -uall [3ms]
+2025-11-02 05:22:44.770 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-11-02 05:22:45.195 [info] > git check-ignore -v -z --stdin [2ms]
+2025-11-02 05:23:25.332 [info] > git show --textconv :README.md [4ms]
+2025-11-02 05:23:25.333 [info] > git ls-files --stage -- README.md [1ms]
+2025-11-02 05:23:25.337 [info] > git cat-file -s 809dd022c5d529163b728f1513d5c33e78fe1b27 [1ms]
+2025-11-02 05:23:33.179 [info] > git show --textconv :README.md [6ms]
+2025-11-02 05:23:33.181 [info] > git ls-files --stage -- README.md [3ms]
+2025-11-02 05:23:33.187 [info] > git cat-file -s 809dd022c5d529163b728f1513d5c33e78fe1b27 [1ms]
+2025-11-02 05:23:54.012 [info] > git blame --root --incremental b1c936dde768604e1d7010ce368fb5c074fbd1bd -- README.md [1ms]
+2025-11-02 05:24:13.352 [info] > git config --get commit.template [5ms]
+2025-11-02 05:24:13.352 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-11-02 05:24:13.357 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/pepino/Projects/MyFisrtLinuxRice/.git/refs/remotes/origin/main'
+2025-11-02 05:24:13.358 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-11-02 05:24:13.367 [info] > git status -z -uall [6ms]
+2025-11-02 05:24:13.368 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-11-02 05:24:33.717 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [1ms]
+2025-11-02 05:24:35.249 [info] > git add -A -- README.md [2ms]
+2025-11-02 05:24:35.261 [info] > git config --get commit.template [5ms]
+2025-11-02 05:24:35.262 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-11-02 05:24:35.266 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/pepino/Projects/MyFisrtLinuxRice/.git/refs/remotes/origin/main'
+2025-11-02 05:24:35.267 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-11-02 05:24:35.276 [info] > git status -z -uall [5ms]
+2025-11-02 05:24:35.277 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-11-02 05:24:35.597 [info] > git show --textconv HEAD:README.md [5ms]
+2025-11-02 05:24:35.598 [info] > git ls-tree -l HEAD -- README.md [2ms]
+2025-11-02 05:24:36.343 [info] > git config --get commit.template [6ms]
+2025-11-02 05:24:36.345 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-11-02 05:24:36.352 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/pepino/Projects/MyFisrtLinuxRice/.git/refs/remotes/origin/main'
+2025-11-02 05:24:36.354 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-11-02 05:24:36.365 [info] > git status -z -uall [5ms]
+2025-11-02 05:24:36.366 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-11-02 05:24:36.448 [info] > git ls-files --stage -- README.md [8ms]
+2025-11-02 05:24:36.453 [info] > git ls-tree -l HEAD -- README.md [6ms]
+2025-11-02 05:24:36.454 [info] > git cat-file -s 3e522d4736e16e29db977dec1f93955ea0b9308c [2ms]
+2025-11-02 05:24:36.467 [info] > git show --textconv HEAD:README.md [6ms]
+2025-11-02 05:24:36.470 [info] > git show --textconv :README.md [3ms]
+2025-11-02 05:24:53.161 [info] > git add -A -- README.md [2ms]
+2025-11-02 05:24:53.169 [info] > git config --get commit.template [4ms]
+2025-11-02 05:24:53.170 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-11-02 05:24:53.173 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/pepino/Projects/MyFisrtLinuxRice/.git/refs/remotes/origin/main'
+2025-11-02 05:24:53.174 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-11-02 05:24:53.184 [info] > git status -z -uall [6ms]
+2025-11-02 05:24:53.186 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-11-02 05:24:53.197 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [1ms]
+2025-11-02 05:24:53.197 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2025-11-02 05:24:53.201 [info] > git config --get-all user.name [1ms]
+2025-11-02 05:24:53.208 [info] > git config --get commit.template [4ms]
+2025-11-02 05:24:53.208 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-11-02 05:24:53.210 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/pepino/Projects/MyFisrtLinuxRice/.git/refs/remotes/origin/main'
+2025-11-02 05:24:53.211 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-11-02 05:24:53.217 [info] > git status -z -uall [3ms]
+2025-11-02 05:24:53.219 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-11-02 05:25:05.509 [info] > git config --get commit.template [6ms]
+2025-11-02 05:25:05.511 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-11-02 05:25:05.518 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/pepino/Projects/MyFisrtLinuxRice/.git/refs/remotes/origin/main'
+2025-11-02 05:25:05.519 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-11-02 05:25:05.525 [info] > git status -z -uall [3ms]
+2025-11-02 05:25:05.525 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [0ms]
+2025-11-02 05:25:05.567 [info] > git ls-files --stage -- README.md [4ms]
+2025-11-02 05:25:05.570 [info] > git ls-tree -l HEAD -- README.md [4ms]
+2025-11-02 05:25:05.571 [info] > git cat-file -s 62d3937e2e8e077d494f60c696c97da0a3505973 [2ms]
+2025-11-02 05:25:05.604 [info] > git show --textconv HEAD:README.md [3ms]
+2025-11-02 05:25:05.605 [info] > git show --textconv :README.md [1ms]
+2025-11-02 05:29:35.411 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [5ms]
+2025-11-02 05:29:35.417 [info] > git config --get commit.template [1ms]
+2025-11-02 05:29:35.425 [info] > git config --get commit.template [3ms]
+2025-11-02 05:29:35.426 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-11-02 05:29:35.430 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/pepino/Projects/MyFisrtLinuxRice/.git/refs/remotes/origin/main'
+2025-11-02 05:29:35.431 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-11-02 05:29:35.438 [info] > git status -z -uall [4ms]
+2025-11-02 05:29:35.439 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-11-02 05:29:35.449 [info] > git merge-base refs/heads/main refs/remotes/origin/main [2ms]
+2025-11-02 05:29:35.452 [info] > git blame --root --incremental 74bab407f6d697552ef07f6ffe7b85a19ac0ff9f -- README.md [9ms]
+2025-11-02 05:29:35.454 [info] > git diff --name-status -z --diff-filter=ADMR b1c936dde768604e1d7010ce368fb5c074fbd1bd...refs/remotes/origin/main [2ms]
+2025-11-02 05:29:35.464 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [1ms]
+2025-11-02 05:29:35.472 [info] > git config --get commit.template [0ms]
+2025-11-02 05:29:35.476 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-11-02 05:29:35.479 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/pepino/Projects/MyFisrtLinuxRice/.git/refs/remotes/origin/main'
+2025-11-02 05:29:35.479 [info] > git rev-parse refs/remotes/origin/main [0ms]
+2025-11-02 05:29:35.484 [info] > git status -z -uall [3ms]
+2025-11-02 05:29:35.485 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-11-02 05:29:36.503 [info] > git config --get commit.template [6ms]
+2025-11-02 05:29:36.504 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-11-02 05:29:36.508 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/pepino/Projects/MyFisrtLinuxRice/.git/refs/remotes/origin/main'
+2025-11-02 05:29:36.510 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-11-02 05:29:36.520 [info] > git status -z -uall [5ms]
+2025-11-02 05:29:36.522 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-11-02 05:29:36.601 [info] > git ls-files --stage -- README.md [1ms]
+2025-11-02 05:29:36.604 [info] > git cat-file -s 62d3937e2e8e077d494f60c696c97da0a3505973 [1ms]
+2025-11-02 05:29:36.609 [info] > git show --textconv :README.md [1ms]
+2025-11-02 05:30:07.644 [info] > git log --oneline --cherry main...main@{upstream} -- [13ms]
+2025-11-02 05:30:08.116 [info] > git pull --tags origin main [469ms]
+2025-11-02 05:30:08.116 [info] From https://github.com/3lGr110/MyFisrtLinuxRice
+ * branch            main       -> FETCH_HEAD
+2025-11-02 05:30:17.162 [info] > git ls-files --stage -- README.md [5ms]
+2025-11-02 05:30:17.165 [info] > git cat-file -s 62d3937e2e8e077d494f60c696c97da0a3505973 [1ms]
+2025-11-02 05:30:17.170 [info] > git show --textconv :README.md [1ms]
+2025-11-02 05:31:08.009 [info] > git push origin main:main [59884ms]
+2025-11-02 05:31:08.009 [info] To https://github.com/3lGr110/MyFisrtLinuxRice.git
+   b1c936d..74bab40  main -> main
+2025-11-02 05:31:08.021 [info] > git config --get commit.template [6ms]
+2025-11-02 05:31:08.023 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-11-02 05:31:08.035 [info] > git status -z -uall [7ms]
+2025-11-02 05:31:08.036 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-11-02 05:31:08.044 [info] > git merge-base refs/heads/main refs/remotes/origin/main [1ms]
+2025-11-02 05:31:08.053 [info] > git diff --name-status -z --diff-filter=ADMR 74bab407f6d697552ef07f6ffe7b85a19ac0ff9f...refs/remotes/origin/main [5ms]
+2025-11-02 05:31:08.054 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [1ms]
+2025-11-02 05:31:16.718 [info] > git config --get commit.template [2ms]
+2025-11-02 05:31:16.736 [info] > git ls-files --stage -- README.md [9ms]
+2025-11-02 05:31:16.742 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2025-11-02 05:31:16.743 [info] > git cat-file -s 62d3937e2e8e077d494f60c696c97da0a3505973 [2ms]
+2025-11-02 05:31:16.754 [info] > git status -z -uall [6ms]
+2025-11-02 05:31:16.758 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-11-02 05:31:16.760 [info] > git show --textconv :README.md [2ms]
+2025-11-02 05:32:34.030 [info] > git check-ignore -v -z --stdin [1ms]
+2025-11-02 05:32:34.606 [info] > git config --get commit.template [7ms]
+2025-11-02 05:32:34.607 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-11-02 05:32:34.620 [info] > git status -z -uall [7ms]
+2025-11-02 05:32:34.621 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-11-02 05:33:04.992 [info] > git check-ignore -v -z --stdin [2ms]
+2025-11-02 05:33:05.561 [info] > git config --get commit.template [7ms]
+2025-11-02 05:33:05.562 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-11-02 05:33:05.577 [info] > git status -z -uall [7ms]
+2025-11-02 05:33:05.578 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]

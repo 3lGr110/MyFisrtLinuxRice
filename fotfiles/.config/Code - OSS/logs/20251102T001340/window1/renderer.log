@@ -1,0 +1,10 @@
+2025-11-02 00:13:41.073 [info] Started local extension host with pid 29517.
+2025-11-02 00:13:41.181 [error] CodeExpectedError: No default agent contributed
+    at Hat.activateDefaultAgent (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2193:12401)
+2025-11-02 00:13:43.740 [info] [perf] Render performance baseline is 23ms
+2025-11-02 00:14:20.192 [warning] [backup tracker] suspended, ignoring dirty change event file:///home/pepino/.config/hypr/hyprland.conf 
+2025-11-02 00:14:20.494 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-11-02 00:14:20.570 [info] Started local extension host with pid 31977.
+2025-11-02 00:14:20.763 [error] CodeExpectedError: No default agent contributed
+    at Hat.activateDefaultAgent (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2193:12401)
+2025-11-02 00:14:23.198 [info] [perf] Render performance baseline is 24ms

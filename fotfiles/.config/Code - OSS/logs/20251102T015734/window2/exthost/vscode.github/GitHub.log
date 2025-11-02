@@ -1,0 +1,6 @@
+2025-11-02 05:21:42.766 [info] Log level: Info
+2025-11-02 05:22:29.338 [info] Log level: Info
+2025-11-02 05:22:30.774 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.
+2025-11-02 05:22:44.761 [info] Log level: Info
+2025-11-02 05:22:44.791 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.
+2025-11-02 05:24:33.778 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_loadAssignableUsers] Failed to load assignable user(s) for 3lGr110/MyFisrtLinuxRice: Error: No GitHub authentication session available.

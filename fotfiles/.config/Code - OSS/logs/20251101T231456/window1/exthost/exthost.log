@@ -1,0 +1,20 @@
+2025-11-01 23:14:58.874 [info] Extension host with pid 8064 started
+2025-11-01 23:14:58.910 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-11-01 23:14:58.940 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-11-01 23:14:58.945 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-11-01 23:14:58.983 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-11-01 23:14:59.043 [info] Eager extensions activated
+2025-11-01 23:14:59.056 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-11-01 23:14:59.057 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-11-01 23:16:08.100 [info] Extension host terminating: renderer closed the MessagePort
+2025-11-01 23:16:08.103 [info] Extension host with pid 8064 exiting with code 0
+2025-11-01 23:16:08.829 [info] Extension host with pid 18049 started
+2025-11-01 23:16:08.829 [info] Skipping acquiring lock for /home/pepino/.config/Code - OSS/User/workspaceStorage/26828e4323266aff31d7577eb829f9b7.
+2025-11-01 23:16:08.868 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-11-01 23:16:08.893 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2025-11-01 23:16:08.895 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-11-01 23:16:08.936 [info] Eager extensions activated
+2025-11-01 23:16:08.937 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-11-01 23:16:08.938 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-11-01 23:16:11.889 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2025-11-01 23:41:23.183 [info] ExtensionService#_doActivateExtension vscode.media-preview, startup: false, activationEvent: 'onCustomEditor:imagePreview.previewEditor'

@@ -1,0 +1,9 @@
+2025-11-02 01:44:22.759 [info] Extension host with pid 37413 started
+2025-11-02 01:44:22.759 [info] Skipping acquiring lock for /home/pepino/.config/Code - OSS/User/workspaceStorage/b96432a9f0aa6320fc621219634ca3a6.
+2025-11-02 01:44:22.777 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-11-02 01:44:22.803 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-11-02 01:44:22.807 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-11-02 01:44:22.844 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-11-02 01:44:22.930 [info] Eager extensions activated
+2025-11-02 01:44:22.931 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-11-02 01:44:22.933 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'

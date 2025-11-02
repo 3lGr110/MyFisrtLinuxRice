@@ -1,0 +1,18 @@
+2025-11-02 05:21:42.240 [info] Started local extension host with pid 76061.
+2025-11-02 05:21:44.900 [info] [perf] Render performance baseline is 25ms
+2025-11-02 05:22:28.776 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-11-02 05:22:28.856 [info] Started local extension host with pid 85683.
+2025-11-02 05:22:28.916 [error] CodeExpectedError: No default agent contributed
+    at Hat.activateDefaultAgent (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2193:12401)
+2025-11-02 05:22:31.457 [info] [perf] Render performance baseline is 24ms
+2025-11-02 05:22:44.147 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-11-02 05:22:44.204 [info] Started local extension host with pid 88687.
+2025-11-02 05:22:44.266 [error] CodeExpectedError: No default agent contributed
+    at Hat.activateDefaultAgent (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2193:12401)
+2025-11-02 05:22:46.834 [info] [perf] Render performance baseline is 25ms
+2025-11-02 05:23:25.399 [error] [Extension Host] (node:88687) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-11-02 05:27:01.078 [error] spawn truecolor ENOENT: Error: spawn truecolor ENOENT
+    at ChildProcess._handle.onexit (node:internal/child_process:285:19)
+    at onErrorNT (node:internal/child_process:483:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
