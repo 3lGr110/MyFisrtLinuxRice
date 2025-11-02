@@ -1,0 +1,2 @@
+# MyFisrtLinuxRice
+FirstArchLINUXRCIE/hyprland
